@@ -19,6 +19,21 @@ body::before {
   z-index: -1;
 }
 
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #18d26e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #18d26e;
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
