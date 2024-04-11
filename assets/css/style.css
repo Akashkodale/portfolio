@@ -10,7 +10,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg_mountain_1.jpg") top right no-repeat;
+  background: #040404 url("../img/bg_road.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -28,11 +28,16 @@ body::before {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .btn:hover {
-  background-color: #18d26e;
+  background-color: #ffd700; /* Yellow color */
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
+
 
 @media (min-width: 1024px) {
   body::before {
