@@ -25,7 +25,7 @@ body::before {
 /* Media query for mobile devices */
 @media (max-width: 767px) {
   body::before {
-    background-image: url('../img/bg_yellow2.webp'); /* Replace with your mobile background image */
+    background-image: url('../img/mobile_bg.webp'); /* Replace with your mobile background image */
   }
 }
 
