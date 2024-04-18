@@ -49,6 +49,17 @@ body::before {
 }
 
 
+.skill-logo {
+  width: 25px; /* Adjust size as needed */
+  height: 25px;
+  margin-right: 10px; /* Add some space between logo and skill text */
+  vertical-align: middle; /* Align the logo vertically with the text */
+}
+
+/* You can include additional CSS for styling progress bars and other elements if needed */
+
+
+
 
 @media (min-width: 1024px) {
   body::before {
