@@ -61,6 +61,49 @@ body::before {
 
 
 
+.about-button-container {
+  display: none; /* Hide the button by default */
+  text-align: center; /* Center align the button */
+}
+
+.btn-first_about {
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #18d26e; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .about-button-container {
+      display: block; /* Show the button on smaller screens */
+      margin-top: 20px; /* Add some margin to separate it from social links */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;

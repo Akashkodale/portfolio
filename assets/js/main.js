@@ -6,8 +6,16 @@
 * License: https://bootstrapmade.com/license/
 */
 
-(function() {
-  "use strict";
+
+
+function toggleAbout() {
+  var aboutSection = document.getElementById("#about");
+  if (aboutSection.style.display === "none") {
+    aboutSection.style.display = "block";
+  } else {
+    aboutSection.style.display = "none";
+  }
+}
 
   /**
    * Easy selector helper function
