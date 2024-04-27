@@ -50,9 +50,9 @@ body::before {
 
 
 .skill-logo {
-  width: 25px; /* Adjust size as needed */
-  height: 25px;
-  margin-right: 10px; /* Add some space between logo and skill text */
+  width: 30px; /* Adjust size as needed */
+  height: 30px;
+  margin-right: 15px; /* Add some space between logo and skill text */
   vertical-align: middle; /* Align the logo vertically with the text */
 }
 
