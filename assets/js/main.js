@@ -233,7 +233,7 @@ new Swiper('.portfolio-details-slider', {
   }
 });
 
-/**
- * Initiate Pure Counter 
- */
-new PureCounter();
+  /**
+   * Initiate Pure Counter 
+   */
+  new PureCounter();
